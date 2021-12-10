@@ -24,6 +24,7 @@
 
 	/*only change this variables to change global values*/
 	--font-family: "Open Sans";
+	--font-size-mini: 12px;
 	--font-size-small: 14px;
 	--font-size-big: 16px;
 	--font-style: normal;
@@ -76,4 +77,11 @@
 	--headline-line-height: var(--font-line-height-small);
 	--headline-text-transform: var(--font-text-transform-uppercase);
 	--headline-text-align: var(--font-alignment-center);
+	/*Label*/
+	--label-font-family: var(--font-family);
+	--label-font-size: var(--font-size-mini);
+	--label-font-style: var(--font-style);
+	--label-font-weight: var(--font-weight-normal);
+	--label-line-height: var(--font-line-height-small);
+	--label-text-align: var(--font-alignment-center);
 }
