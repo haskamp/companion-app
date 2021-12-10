@@ -1,8 +1,79 @@
-/**
-unsere Variablen-Konvention:
-block-element--modifier
-**/
-
 :root {
-	--black-light-100: #123456;
+	/**++Color-Palette++**/
+	--medium-grey: #e0e4e8;
+	--light-grey: #f8f8f8;
+	--denim-100: #193251;
+	--denim-200: #7589a2;
+	--denim-200-rgba-transparent: rgba(25, 50, 81, 0.2);
+	--tangerine-100: #ff5a36;
+	--tangerine-100-rgba-transparent: rgba(255, 90, 54, 0.4);
+	--tangerine-200: #ff9c86;
+	--tangerine-300: #ffbdaf;
+	--tangerine-400: #ffded7;
+
+	/**++Borders++**/
+	--denim-200-border: 1px solid var(--denim-200);
+	--medium-grey-border: 1px solid var(--medium-grey);
+	--border-radius: 10px;
+
+	/**++Box Shadows++**/
+	--denim-boxshadow: 0px 2px 11px var(--denim-200-rgba-transparent);
+	--tangerine-boxshadow: 0px 4px 10px var(--tangerine-100-rgba-transparent);
+
+	/**++Fonts++**/
+
+	/*only change this variables to change global values*/
+	--font-family: "Open Sans";
+	--font-size-small: 14px;
+	--font-size-big: 16px;
+	--font-style: normal;
+	--font-weight-normal: normal;
+	--font-weight-bold: bold;
+	--font-weight-600: 600;
+	--font-line-height-small: 16px;
+	--font-line-height-medium: 18px;
+	--font-line-height-big: 20px;
+	--font-text-transform-uppercase: uppercase;
+	--font-alignment-center: center;
+
+	/*use this for styling*/
+
+	/*TITLE*/
+	--title-font-family: var(--font-family);
+	--title-font-size: var(--font-size-big);
+	--title-font-style: var(--font-style);
+	--title-font-weight: var(--font-weight-bold);
+	--title-line-height: var(--font-line-height-medium);
+	--title-text-transform: var(--font-text-transform-uppercase);
+	--title-text-align: var(--font-alignment-center);
+	/*BODY LARGE*/
+	--body-large-font-family: var(--font-family);
+	--body-large-font-size: var(--font-size-big);
+	--body-large-font-style: var(--font-style);
+	--body-large-font-weight: var(--font-weight-bold);
+	--body-large-line-height: var(--font-line-height-medium);
+	--body-large-align: var(--font-alignment-center);
+	/*BODY SMALL*/
+	--body-small-font-family: var(--font-family);
+	--body-small-font-size: var(--font-size-small);
+	--body-small-font-style: var(--font-style);
+	--body-small-font-weight: var(--font-weight-normal);
+	--body-small-line-height: var(--font-line-height-big);
+	--body-small-align: var(--font-alignment-center);
+	/*HEADLINE UPPERCASE*/
+	--headline-uppercase-font-family: var(--font-family);
+	--headline-uppercase-font-size: var(--font-size-small);
+	--headline-uppercase-font-style: var(--font-style);
+	--headline-uppercase-font-weight: var(--font-weight-normal);
+	--headline-uppercase-line-height: var(--font-line-height-medium);
+	--headline-uppercase-text-transform: var(--font-text-transform-uppercase);
+	--headline-uppercase-align: var(--font-alignment-center);
+	/*HEADLINE*/
+	--headline-font-family: var(--font-family);
+	--headline-font-size: var(--font-size-small);
+	--headline-font-style: var(--font-style);
+	--headline-font-weight: var(--font-weight-600);
+	--headline-line-height: var(--font-line-height-small);
+	--headline-text-transform: var(--font-text-transform-uppercase);
+	--headline-text-align: var(--font-alignment-center);
 }
