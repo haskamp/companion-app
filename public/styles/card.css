@@ -1,0 +1,98 @@
+@import url(/styles/icons.css);
+@import url(/styles/design-system.css);
+
+/**
+ * Minimal Reset
+ */
+body {
+	margin: 0;
+    background-color: orange;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+.card {
+    background-color: white;
+    margin: 10px 30px 15px 30px;
+    padding: 20px;
+    border-radius: var(--border-radius);
+}
+
+.label {
+    margin-bottom: 6px;
+
+    color: var(--denim-200);
+    font-family: var(--label-font-family);
+    font-size: var(--label-font-size);
+    font-style: var(--label-font-style);
+    font-weight: var(--label-font-weight);
+}
+
+.body--large {
+    margin-top: 6px;
+
+    color: var(--denim-100);
+    font-family: var(--body-large-font-family);
+    font-size: var(--body-large-font-size);
+    font-style: var(--body-large-font-style);
+    font-weight: var(--body-large-font-weight);
+}
+
+.body--small {
+    margin-top: 6px;
+
+    color: var(--denim-100);
+    font-family: var(--body-small-font-family);
+    font-size: var(--body-small-font-size);
+    font-style: var(--body-small-font-style);
+    font-weight: var(--body-small-font-weight);
+}
+.rating-stars {
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 10px;
+}
+
+.comprehension-squares {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* BUTTON */
+.star {
+    display: flex;
+    justify-content: center;
+
+    height: 36px;
+    width: 36px;
+    border: none;
+    background: none;       
+    cursor: pointer;
+
+    &:focus {
+    outline: 2px dashed #17171D;
+    }
+
+    &:hover {
+    svg {
+      transform: scale(1.1);
+      } 
+    }
+}
+
